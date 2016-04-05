@@ -1,6 +1,15 @@
-<?php namespace Oauth2;
+<?php
+/**
+ * Oauth2ServiceProvider.php
+ * Created by anonymous on 04/04/16 12:44.
+ */
 
+namespace Oauth2;
+
+use ReflectionClass;
+use Illuminate\Foundation\AliasLoader;
 use Illuminate\Support\ServiceProvider;
+
 
 class Oauth2ServiceProvider extends ServiceProvider
 {
